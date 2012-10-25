@@ -2,7 +2,8 @@
 SQLyog Ultimate v9.60 
 MySQL - 5.5.16 : Database - abtest
 *********************************************************************
-*/
+*/
+
 
 /*!40101 SET NAMES utf8 */;
 
@@ -40,8 +41,10 @@ CREATE TABLE `feature_x_abgroup` (
   UNIQUE KEY `group_x_feature_unique` (`fxa_abgroup`,`fxa_feature`)
 ) ENGINE=InnoDB AUTO_INCREMENT=80 DEFAULT CHARSET=latin1;
 
+
 /*Table structure for table `users` */
 
+/*
 DROP TABLE IF EXISTS `users`;
 
 CREATE TABLE `users` (
@@ -50,6 +53,7 @@ CREATE TABLE `users` (
   `ab_group` smallint(6) DEFAULT NULL,
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=1097 DEFAULT CHARSET=utf8 COLLATE=utf8_bin;
+*/
 
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
 /*!40014 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS */;
