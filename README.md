@@ -2,7 +2,7 @@ AB-test
 =======
 A/B Testing library for CodeIgniter 1.7.3
 
-Instalation
+Installation
 -----------
 The feature and feature_x_abgroup tables need to be added. An ab_group field needs to be added to your user table.
 
