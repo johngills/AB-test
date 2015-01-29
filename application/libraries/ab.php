@@ -42,7 +42,7 @@
 			$this->CI =& get_instance();
 			if (isset($params['abGroupId'])) {
 			    $params['abGroupId'] = empty($params['abGroupId']) ? 0 : $params['abGroupId'];
-                $abGroupId = $params['abGroupId'];
+                	    $abGroupId = $params['abGroupId'];
 			} else {
 			    $abGroupId = NULL;
 			}
